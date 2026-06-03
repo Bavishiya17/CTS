@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Events</title>
+  <style>
+    body { text-align: center; font-family: Arial; }
+    input, select { margin: 10px; padding: 5px; }
+  </style>
+</head>
+<body>
+
+<h2>Find Events</h2>
+
+<input type="text" placeholder="Search" onkeydown="searchEvent()">
+
+<select onchange="filterCategory()">
+  <option>Music</option>
+  <option>Dance</option>
+</select>
+
+<button onclick="register()">Register</button>
+
+<script src="main.js"></script>
+</body>
+</html>
