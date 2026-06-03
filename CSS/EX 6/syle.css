@@ -1,0 +1,36 @@
+body{
+    font-family:Arial;
+}
+
+nav ul{
+    list-style:none;
+    background:#003366;
+    padding:15px;
+}
+
+nav li{
+    display:inline;
+    margin-right:20px;
+}
+
+a:link{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:active{
+    color:red;
+}
+
+a:visited{
+    color:lightgray;
+}
+
+.events{
+    list-style-type:square;
+    list-style-position:inside;
+}
