@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+    width:350px;
+    padding:20px;
+    background:#f4f4f4;
+    border-radius:10px;
+}
+
+input,select,textarea{
+    width:100%;
+    margin:8px 0;
+    padding:8px;
+}
+
+button{
+    background:#2196F3;
+    color:white;
+    border:none;
+    padding:10px;
+}
+</style>
+</head>
+<body>
+
+<form onsubmit="msg.value='Registration Successful!'">
+    
+    <input type="text" placeholder="Enter Name" required autofocus>
+
+    <input type="email" placeholder="Enter Email" required>
+
+    <input type="date" required>
+
+    <select required>
+        <option>Music Event</option>
+        <option>Sports Event</option>
+        <option>Art Event</option>
+    </select>
+
+    <textarea placeholder="Message"></textarea>
+
+    <button type="submit">Register</button>
+
+    <output id="msg"></output>
+
+</form>
+
+</body>
+</html>

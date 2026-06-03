@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debugging Example</title>
+</head>
+<body>
+
+<h2>Event Registration</h2>
+
+<button onclick="register()">Register</button>
+
+<p id="result"></p>
+
+<script>
+
+function register() {
+
+    let seats = 100;
+
+    console.log("Available Seats:", seats);
+
+    debugger;   // Execution pauses here if DevTools is open
+
+    document.getElementById("result").innerHTML =
+        "Registration Successful";
+
+}
+
+</script>
+
+</body>
+</html>
