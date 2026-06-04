@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+public class ArrayListExample{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> arr = new ArrayList<>();
+        int n = sc.nextInt();
+        sc.nextLine();
+        for (int i = 0; i < n; i++) {
+            arr.add(sc.nextLine());
+        }
+        for (String name : arr) {
+            System.out.println(name);
+        }
+    }
+}
